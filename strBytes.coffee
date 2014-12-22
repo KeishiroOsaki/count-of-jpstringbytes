@@ -5,8 +5,6 @@
 ###
 strBytes = (str) ->
 
-	#str = elem.innerText
-
 	r = 0
 	for i in [0..(str.length-1)] 
         c = str.charCodeAt i 
